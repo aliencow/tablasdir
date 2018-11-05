@@ -1,5 +1,5 @@
-from app.mod_tables.serverside.serverside_table import ServerSideTable
-from app.mod_tables.serverside import table_schemas
+from tables.mod_tables.serverside.serverside_table import ServerSideTable
+from tables.mod_tables.serverside import table_schemas
 
 DATA_SAMPLE = [
     {'A': 'Hello!', 'B': 'How is it going?', 'C': 3, 'D': 4},

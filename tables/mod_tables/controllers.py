@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from app import table_builder
+from tables import table_builder
 
 
 tables = Blueprint('tables', __name__, url_prefix='/tables')
