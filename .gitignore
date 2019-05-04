@@ -1,1 +1,3 @@
+# ve es el virtual environment por eso se excluye
+ve
 *.pyc
